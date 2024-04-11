@@ -1,5 +1,5 @@
-const ErrorMessage = () => {
-  return <p>Oops, bad reguest</p>;
-};
+import css from './ErrorMessage.module.css';
 
-export default ErrorMessage;
+export const ErrorMessage = () => {
+    return <p className = {css.text}>Note: both your Access Key and Secret Key must remain confidential.</p>
+}
